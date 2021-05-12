@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.detail.DetailFragment">
+
+    <ImageView
+        android:id="@+id/imageDetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/nombreDetalle_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nexa_bold"
+            android:text="Hollywood"
+            android:textSize="32sp"/>
+
+        <TextView
+            android:id="@+id/colorDetalle_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/nexa_light"
+            android:text="Blanco"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/precioDetalle_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nexa_light"
+            android:text="$2,800"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/descripcionDetalle_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nexa_bold"
+            android:text="De 7 cajones, jaladeras tipo diamante, etc..."
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
